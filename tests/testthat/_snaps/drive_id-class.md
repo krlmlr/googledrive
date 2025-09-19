@@ -64,18 +64,19 @@
       print(drive_reveal(x, "mime_type"))
     Output
       # A dribble: 10 x 4
-         name                                 mime_type        id       drive_resource
-         <chr>                                <chr>            <drv_id> <list>        
-       1 foo_sheet-TEST-drive_publish         application/vnd~ 1CEefQC~ <named list>  
-       2 foo_doc-TEST-drive_publish           application/vnd~ 1oUrQNg~ <named list>  
-       3 DESC-TEST-drive_mv-jenny-7694ef72    text/plain       1V6qQhC~ <named list>  
-       4 DESC-TEST-drive_mv-jenny-7694ef72    text/plain       1uBR1UM~ <named list>  
-       5 name-collision-TEST-path-utils-jenny application/oct~ 1U_5_O1~ <named list>  
-       6 DESCRIPTION-TEST-drive-update-jenny  text/plain       1Y2O_ot~ <named list>  
-       7 name-collision-TEST-path-utils-jenny application/oct~ 1o_Umld~ <named list>  
-       8 DESC-TEST-drive-mv-jenny             text/plain       1oa-yeD~ <named list>  
-       9 DESC-TEST-drive-mv-jenny             text/plain       1yeH1Tq~ <named list>  
-      10 DESC-TEST-drive-mv-jenny             text/plain       1qSmvJt~ <named list>  
+         name                                 mime_type          id       drive_reso~1
+         <chr>                                <chr>              <drv_id> <list>      
+       1 foo_sheet-TEST-drive_publish         application/vnd.g~ 1CEefQC~ <named list>
+       2 foo_doc-TEST-drive_publish           application/vnd.g~ 1oUrQNg~ <named list>
+       3 DESC-TEST-drive_mv-jenny-7694ef72    text/plain         1V6qQhC~ <named list>
+       4 DESC-TEST-drive_mv-jenny-7694ef72    text/plain         1uBR1UM~ <named list>
+       5 name-collision-TEST-path-utils-jenny application/octet~ 1U_5_O1~ <named list>
+       6 DESCRIPTION-TEST-drive-update-jenny  text/plain         1Y2O_ot~ <named list>
+       7 name-collision-TEST-path-utils-jenny application/octet~ 1o_Umld~ <named list>
+       8 DESC-TEST-drive-mv-jenny             text/plain         1oa-yeD~ <named list>
+       9 DESC-TEST-drive-mv-jenny             text/plain         1yeH1Tq~ <named list>
+      10 DESC-TEST-drive-mv-jenny             text/plain         1qSmvJt~ <named list>
+      # i abbreviated name: 1: drive_resource
 
 ---
 
